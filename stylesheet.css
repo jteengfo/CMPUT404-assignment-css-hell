@@ -1,0 +1,28 @@
+body {
+    /* background-color: #F1DCA7; */
+    background-color: #eae4d3;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 500%;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #403d39;
+}
+
+h3, p {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-size: 16pt;
+    color: #403d39;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
