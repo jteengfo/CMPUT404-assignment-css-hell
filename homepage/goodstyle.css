@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #d7eaf3; */
+    background-color: #def2f1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotronBox{
+    /* border: 1px solid green; */
+    height: 75em;
+    margin: 50px 50px 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #feffff;
+    border-radius: 10px 10px 0 0;
+}
+
+.mainTitleBox{
+    /* padding: 25px; */
+    /* border: 1px solid black; */
+    height: 400px;
+    flex: 1;
+    align-items: center;
+    max-width: 50%;
+    /*max-height: 400px; */
+    width: fit-content;
+    /* overflow: hidden; */
+    /* border: 1px solid black; */
+
+}
+
+.whoBox{
+    min-width: 40%;
+    min-height: 80%;
+    max-height: 100%;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.imageBox{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImage {
+    /* height: 25%; */
+    width: 500px;
+    min-height: auto;
+    max-height: 25%;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.helloTitle{
+    font-size: 28px;
+}
+
+.nameTitle, .historyTitle{
+    font-size: 45px;
+}
+
+.workTitle{
+    font-size: 35px;
+}
+.detailBox{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin: 0 50px 50px;
+    border-radius: 0 0 10px 10px;
+    background-color: #3aafa9;
+}
+
+.leftBox{
+    flex: 1;
+    border-radius: 0 0 0 10px;
+    color: #feffff;
+    padding: 25px;
+}
+
+.rightBox{
+    border-radius: 10px;
+    background-color: #17252a;
+    color: #feffff;
+    padding: 25px;
+    margin: 25px;
+}

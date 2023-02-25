@@ -83,6 +83,7 @@
     - [ ] gutenberg/2.html should host your second gutenberg book
     - [ ] gutenberg/3.html should host your third gutenberg book
     - [ ] screenshots good.png, bad.png, gutenberg1.png, gutenberg2.png, gutenberg3.png should be in the root of the project.
+    
 
 ** Restrictions
    - [ ] You may use Python
