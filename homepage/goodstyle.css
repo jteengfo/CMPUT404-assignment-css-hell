@@ -12,13 +12,13 @@ img {
 
 .jumbotronBox{
     /* border: 1px solid green; */
-    height: 75em;
+    height: 70em;
     margin: 50px 50px 0;
     padding: 25px;
     display: flex;
     flex-direction: row;
     /* border: 1px solid black; */
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #feffff;
     border-radius: 10px 10px 0 0;
@@ -64,15 +64,44 @@ img {
 
 .helloTitle{
     font-size: 28px;
+    font-style: italic;
 }
 
-.nameTitle, .historyTitle{
+.nameTitle, .historyTitle, .offerTitle, .currentProjectTitle {
     font-size: 45px;
 }
 
-.workTitle{
-    font-size: 35px;
+.historyTitle, .offerTitle{
+    text-shadow: 1px 1px 1px black, 1px 1px 1px black;
 }
+
+
+.workTitle{
+    font-size: 30px;
+    font-weight: 700;
+    color: #17252a;
+}
+
+.workTitleDot{
+    color: #17252a;
+    list-style-type:none;
+}
+
+.currentProjectsDot{
+    list-style-type: circle;
+}
+
+.workDescDot{
+    font-weight: 525;
+    padding-bottom: 10px;
+}
+
+.offerDescDot{
+    font-weight: 525;
+    list-style-type: circle;
+    padding-bottom: 10px;
+}
+
 .detailBox{
     display: flex;
     flex-direction: row;
@@ -83,10 +112,11 @@ img {
 }
 
 .leftBox{
-    flex: 1;
+    /* flex: 1; */
     border-radius: 0 0 0 10px;
     color: #feffff;
     padding: 25px;
+
 }
 
 .rightBox{
@@ -95,4 +125,23 @@ img {
     color: #feffff;
     padding: 25px;
     margin: 25px;
+    max-width: 600px;
+}
+
+.projectTitle{
+    font-size: 25px;
+}
+
+a, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #def2f1;
+    background-color: transparent;
+    /* text-decoration: none; */
+  }
+
+.currentProjectTitle{
+    margin: 0;
 }
