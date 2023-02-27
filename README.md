@@ -1,4 +1,7 @@
 Assignment: CSS Hell
+
+Student Name: James Angelo Te Eng Fo
+Student ID: 1530773
 ====================
 
 You will skin 3 project gutenberg stories with custom CSS.
